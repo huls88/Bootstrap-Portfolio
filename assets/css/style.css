@@ -2,22 +2,37 @@
     float: right;
     margin-left:80px;
 }
+body{
+    background-color: #e7e7e7;
+}
+
+.container2{
+    border: 1px solid black;
+    width: 970px;
+    height: 100px;
+}
 
 .container{
     width: 100%;
     background-color: #e7e7e7;
 }
 .myImages{
-    width: 75px;
-    height: 75px;
+    width: 20%;
+    height: 20%;
 }
 .meImage{
+    float: left;
     width: 280px;
     height: 250px;
 }
-/*header*/
+header
 .panel-title{
     text-align: center;
+}
+p::first-letter{
+    font-size: 200%;
+    color: black;
+    line-height: 30px;
 }
 
 .navbar-default {
@@ -42,16 +57,19 @@ h2 {
 }
 
 .panel{
-    margin-right: 3px;
+    margin-right: 10px;
+    margin-top: -80px;
+
 }
 .panel-default> .panel-heading{
     background: #4aaaa5;
     color: white;
+    text-align: center;
+
 }
 
-.col-sm-4{
-    width: 32.333333%;
-    height: 15px;
+.row2{
+    height: 10%;
 }
 
 p::first-letter{
@@ -78,7 +96,7 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    background-color: #e7e7e7;
+    background-color: white;
 }
 input[type=submit] {
     background-color: #4CAF50;
