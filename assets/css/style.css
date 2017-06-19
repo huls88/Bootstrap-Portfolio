@@ -1,3 +1,12 @@
+.panel{
+    float: right;
+    margin-left:80px;
+}
+
+.container{
+    width: 100%;
+    background-color: #e7e7e7;
+}
 .myImages{
     width: 75px;
     height: 75px;
@@ -6,11 +15,53 @@
     width: 280px;
     height: 250px;
 }
+/*header*/
+.panel-title{
+    text-align: center;
+}
+
+.navbar-default {
+    background-color: white;
+}
+
+
+.container-fluid{
+    padding-left: 0px;
+}
+
+h1{
+    color: white;
+    background: #4aaaa5;
+    margin: 0;
+    padding-bottom: 11px;
+    padding-right: 3px;
+    margin-left: 0;
+}
+h2 {
+    margin-left: -18px;
+}
+
+.panel{
+    margin-right: 3px;
+}
+.panel-default> .panel-heading{
+    background: #4aaaa5;
+    color: white;
+}
 
 .col-sm-4{
     width: 32.333333%;
     height: 15px;
 }
+
+p::first-letter{
+
+    font-size: 200%;
+    color: black;
+    line-height: 30px;
+
+}
+
 h5 {
     text-align: center;
 }
@@ -22,15 +73,12 @@ select,
 textarea {
     width: 600px;
     padding: 12px;
-    /*    border: 1px solid #ccc;
-*/
-    
     border-radius: 3px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    background-color: #ffffff;
+    background-color: #e7e7e7;
 }
 input[type=submit] {
     background-color: #4CAF50;
@@ -42,4 +90,13 @@ input[type=submit] {
 }
 input[type=submit]:hover {
     background-color: #45a049;
+}
+
+.container-footer{
+    width: 100%;
+    height: 50px;
+}
+
+label {
+    color: gray;
 }
