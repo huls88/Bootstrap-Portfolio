@@ -6,43 +6,15 @@ body{
     background-color: #e7e7e7;
 }
 
-.container2{
-    border: 1px solid black;
-    width: 970px;
-    height: 100px;
-}
-
-.container{
-    width: 100%;
-    background-color: #e7e7e7;
-}
-.myImages{
-    width: 20%;
-    height: 20%;
-}
-.meImage{
-    float: left;
-    width: 280px;
-    height: 250px;
-}
-header
-.panel-title{
-    text-align: center;
-}
 p::first-letter{
     font-size: 200%;
     color: black;
     line-height: 30px;
 }
 
-.navbar-default {
-    background-color: white;
-}
 
 
-.container-fluid{
-    padding-left: 0px;
-}
+
 
 h1{
     color: white;
@@ -52,9 +24,7 @@ h1{
     padding-right: 3px;
     margin-left: 0;
 }
-h2 {
-    margin-left: -18px;
-}
+
 
 .panel{
     margin-right: 10px;
@@ -66,10 +36,6 @@ h2 {
     color: white;
     text-align: center;
 
-}
-
-.row2{
-    height: 10%;
 }
 
 p::first-letter{
@@ -118,3 +84,81 @@ input[type=submit]:hover {
 label {
     color: gray;
 }
+
+
+.navbar-default {
+  background: #fff;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #4aaaa5;
+  font-size: 1.8em;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #999;
+  color: #fff; 
+}
+
+/*.content-wrap {
+  padding-left: 25px;
+}*/
+
+.about-me-header {
+  margin-top: 0;
+  text-align: center;
+}
+
+img.profile-img {
+  max-height: 300px;
+  margin: 0 auto;
+}
+
+.about-text {
+  padding: 15px 0 0 15px;
+  max-width: 400px;
+  margin: 15px auto 0;
+}
+
+.about-text:first-letter {
+  font-size: 200%;
+  color: black;
+  line-height: 30px;
+}
+
+.sidebar {
+  margin-top: 40px;
+}
+
+.panel .panel-heading {
+  background: #4aaaa5;
+  color: #fff;
+}
+
+
+
+@media (min-width: 1092px) {
+  .about-me-header {
+    text-align: left;
+  }
+  
+/*  .sidebar {
+    margin-top: 0;
+    float: bottom;
+    width: 30%;
+  }*/
+  
+  .about-text {
+    padding: 15px 0 0 15px;
+    max-width: none;
+    margin: 0 auto 0;
+  }
+/*  .panel{
+    float: bottom;
+    position: fixed;
+    margin-left:80px;
+    width: 20%;
+}*/
+}
+
